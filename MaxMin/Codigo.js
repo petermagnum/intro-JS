@@ -13,13 +13,6 @@ btn1.addEventListener("click", function () {
 });
 
 function random(n1, n2) {
-  var r =
-    parseInt(Math.floor(Math.random() * n2)) -
-    parseInt(Math.floor(Math.random() * n1));
 
-  if (r >= 0) {
-    return r;
-  } else {
-    return r * -1;
-  }
+  return  parseInt(Math.floor(Math.random() * parseInt(n2-1)) + parseInt(n1));
 }
