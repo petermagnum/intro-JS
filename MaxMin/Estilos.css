@@ -1,0 +1,53 @@
+body {
+    background: #fff;
+    font-family: Helvetica;
+  }
+  
+  
+  .container{
+      align-items: center;
+      margin: 100px;
+  }
+  #form {
+    
+  
+    margin-top: 100px;
+    width: 100%;
+  
+    text-align: center;
+    background-color: aqua;
+    
+  
+  }
+  span {
+      text-align: center;;
+    display: block;
+    margin-bottom: 30px;
+  }
+  input {
+  
+    width: 100px;
+    height: 40px;
+    font-size: 2em;
+  }
+  output{
+      width: 60px;
+      height: 40px;
+      margin-bottom: 30px;
+      font-size: 2em;
+  
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 50px 10px 50px;
+    font-size: 1em;
+    cursor: pointer;
+    border-style: none;
+  }
+  #btnSuma {
+    background: steelblue;
+    color: #fff;
+  }
+  
+  
